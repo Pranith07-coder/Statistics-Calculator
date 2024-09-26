@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Statistical Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-revenue-enhancement-business-methods_516790-827.jpg?w=740" alt="App Logo" class="logo">
+            <h1>Statistical Calculator</h1>
+        </div>
+
+        <div class="input-section">
+            <input id="dataInput" type="text" placeholder="Enter numbers separated by commas..." onkeypress="restrictInput(event)" oninput="validateInput()" inputmode="numeric">
+            <button class="calculate-btn" onclick="calculateStats()">Calculate</button>
+        </div>
+
+        <div id="results" class="results-section hidden">
+            <h2>Results:</h2>
+            <div class="result-card">
+                <p id="mean"></p>
+                <p id="median"></p>
+                <p id="mode"></p>
+                <p id="stdDev"></p>
+                <p id="sampleStdDev"></p>
+                <p id="sampleVariance"></p>
+                <p id="geometricMean"></p>
+                <p id="min"></p>
+                <p id="max"></p>
+                <p id="range"></p>
+                <p id="count"></p>
+                <p id="sum"></p>
+                <p id="variance"></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Statisticscalculator. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:support@pranithaj07@gmail.com">support@pranithaj07@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
