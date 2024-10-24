@@ -14,30 +14,16 @@ Real-time input validation to restrict users to numbers and commas only
 
 Displays essential statistics such as:
 
-Mean
-
-Median
-
-Mode
-
+Statistics Calculators
+Descriptive Statistics
 Standard Deviation
-
-Sample Standard Deviation
-
-Variance
-
-Sample Variance
-
-Geometric Mean
-
-Minimum and Maximum
-
-Range
-
-Count of numbers
-
-Sum of values
-
+Probability
+Correlation & Regression
+Confidence Interval
+Sample Size
+Permutation & Combination
+Z-Score
+Number Sequence
 
 Clear and organized output for easy reading
 
